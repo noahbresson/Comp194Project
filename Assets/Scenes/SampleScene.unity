@@ -256,7 +256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ad3c32e7b893cac40922d41010c7692b, type: 3}
       propertyPath: m_Name
-      value: uploads_files_783664_Banana
+      value: Banana
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad3c32e7b893cac40922d41010c7692b, type: 3}
@@ -429,7 +429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: eebc0e61366dad745ad01455c27c6480, type: 3}
       propertyPath: m_Name
-      value: 3d-model
+      value: Paper
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eebc0e61366dad745ad01455c27c6480, type: 3}
@@ -647,7 +647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4ec201c3458d13d47ac8f5e740a57394, type: 3}
       propertyPath: m_Name
-      value: fork
+      value: Fork
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ec201c3458d13d47ac8f5e740a57394, type: 3}
@@ -835,7 +835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3157d1b2a1ba19f41a8f9f262bec44c6, type: 3}
       propertyPath: m_Name
-      value: CardboardBox1
+      value: Cardboard
       objectReference: {fileID: 0}
     - target: {fileID: 4717359407450922826, guid: 3157d1b2a1ba19f41a8f9f262bec44c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1069,7 +1069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b22e928dab87dcc4a9f10466a5f65e2b, type: 3}
       propertyPath: m_Name
-      value: 10162_Apple_v01_l3
+      value: Apple
       objectReference: {fileID: 0}
     - target: {fileID: 1355760287958670731, guid: b22e928dab87dcc4a9f10466a5f65e2b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1490,7 +1490,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e1d48f05fb6e45e41946891a74f10334, type: 3}
       propertyPath: m_Name
-      value: kitKatCrinkle
+      value: Wrapper
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1d48f05fb6e45e41946891a74f10334, type: 3}
@@ -1796,7 +1796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d49d8f6bc8f727d44a49a691e7ebe3e4, type: 3}
       propertyPath: m_Name
-      value: Bottle_v1
+      value: Bottle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d49d8f6bc8f727d44a49a691e7ebe3e4, type: 3}
@@ -2133,7 +2133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: af2007ad3c6997e4f8c52dfacdefab9a, type: 3}
       propertyPath: m_Name
-      value: 10195_Orange-L2 (1)
+      value: Orange
       objectReference: {fileID: 0}
     - target: {fileID: 3838637441865089737, guid: af2007ad3c6997e4f8c52dfacdefab9a, type: 3}
       propertyPath: m_LocalPosition.y
