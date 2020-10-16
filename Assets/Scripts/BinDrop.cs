@@ -27,6 +27,36 @@ public class BinDrop : MonoBehaviour
         
     }
 
+    void OnTriggerEnter(Collider other)
+    {
+        if(gameObject.name == "TrashBin")
+        {
+            if (trashList.Contains(other.gameObject.name))
+            {
+                
+            }
+        }
+
+        else if(gameObject.name == "TrashBinGreen")
+        {
+            if (compostList.Contains(other.gameObject.name))
+            {
+
+            }
+        }
+        
+        else if (gameObject.name == "TrashBinBlue")
+        {
+            if(recycleList.Contains(other.gameObject.name))
+            {
+                
+            }
+
+        }
+
+
+    }
+
     // Update is called once per frame
     void Update()
     {
