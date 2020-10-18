@@ -10,17 +10,17 @@ public class BinDrop : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        trashList = new list<String>(); 
+        trashList = new List<String>(); 
         trash.Add("ChipBag");
         trash.Add("Wrapper");
 
-        compostList = new list<String>();
+        compostList = new List<String>();
         compost.Add("Banana");
         compost.Add("Fork");
         compost.Add("Apple");
         compost.Add("Orange");
         
-        recycleList = new list<String>();
+        recycleList = new List<String>();
         recycle.Add("Paper");
         recycle.Add("Cardboard");
         recycle.Add("Bottle");
@@ -49,7 +49,7 @@ public class BinDrop : MonoBehaviour
         {
             if(recycleList.Contains(other.gameObject.name))
             {
-                
+
             }
 
         }
