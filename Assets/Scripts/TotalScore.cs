@@ -7,8 +7,8 @@ public class TotalScore : MonoBehaviour
     public GameObject trashBin;
     public GameObject trashBinGreen;
     public GameObject trashBinBlue;
-    private int TotalScore;
-    public GameObject Text
+    private int FinalScore;
+    public GameObject Text;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +22,7 @@ public class TotalScore : MonoBehaviour
          /*TrashBin.GetComponent<BinDrop>().GetScore();
          TrashBinGreen.GetComponent<BinDrop>().GetScore();
          TrashBinBlue.GetComponent<BinDrop>().GetScore();*/
-         TotalScore =  TrashBinBlue.GetComponent<BinDrop>().GetScore() + TrashBinGreen.GetComponent<BinDrop>().GetScore() + TrashBin.GetComponent<BinDrop>().GetScore();
+         FinalScore =  TrashBinBlue.GetComponent<BinDrop>().GetScore() + TrashBinGreen.GetComponent<BinDrop>().GetScore() + TrashBin.GetComponent<BinDrop>().GetScore();
 
     }
 }

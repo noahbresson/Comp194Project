@@ -71,7 +71,7 @@ public class BinDrop : MonoBehaviour
     }
      public int GetScore()
         {
-          return score 
+          return score;
         }
     // Update is called once per frame
     void Update()
