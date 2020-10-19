@@ -4,30 +4,30 @@ using UnityEngine;
 
 public class BinDrop : MonoBehaviour
 {
-     public AudioClip ding;
-     public list<String> trashList;
-     public list<String> compostList;
-     public list<String> recycleList;
+     //public AudioClip ding;
+     public List<string> trashList;
+     public List<string> compostList;
+     public List<string> recycleList;
      private int score;
     // Start is called before the first frame update
     void Start()
     {
-        trashList = new List<String>(); 
-        trash.Add("ChipBag");
-        trash.Add("Wrapper");
+        trashList = new List<string>(); 
+        trashList.Add("ChipBag");
+        trashList.Add("Wrapper");
 
-        compostList = new List<String>();
-        compost.Add("Banana");
-        compost.Add("Fork");
-        compost.Add("Apple");
-        compost.Add("Orange");
+        compostList = new List<string>();
+        compostList.Add("Banana");
+        compostList.Add("Fork");
+        compostList.Add("Apple");
+        compostList.Add("Orange");
         
-        recycleList = new List<String>();
-        recycle.Add("Paper");
-        recycle.Add("Cardboard");
-        recycle.Add("Bottle");
+        recycleList = new List<string>();
+        recycleList.Add("Paper");
+        recycleList.Add("Cardboard");
+        recycleList.Add("Bottle");
         
-        int score = 0;
+        score = 0;
     }
 
     void OnTriggerEnter(Collider other)
@@ -36,8 +36,8 @@ public class BinDrop : MonoBehaviour
         {
             if (trashList.Contains(other.gameObject.name))
             {
-                 AudioSource ding = GetComponent<AudioSource>();
-                 audio.Play(ding); 
+                 //AudioSource ding = GetComponent<AudioSource>();
+                 GetComponent<AudioSource>().Play(); 
                  score = score + 1; 
             }
         }
@@ -46,8 +46,8 @@ public class BinDrop : MonoBehaviour
         {
             if (compostList.Contains(other.gameObject.name))
             {
-                AudioSource ding = GetComponent<AudioSource>();
-                 audio.Play(ding);
+                 //AudioSource ding = GetComponent<AudioSource>();
+                 GetComponent<AudioSource>().Play();
                  score = score + 1;
             }
         }
@@ -56,8 +56,8 @@ public class BinDrop : MonoBehaviour
         {
             if(recycleList.Contains(other.gameObject.name))
             {
-                 AudioSource ding = GetComponent<AudioSource>();
-                 audio.Play(ding);
+                 //AudioSource ding = GetComponent<AudioSource>();
+                 GetComponent<AudioSource>().Play();
                  score = score + 1;
             }
 
