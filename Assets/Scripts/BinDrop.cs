@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class BinDrop : MonoBehaviour
 {
+     public AudioClip ding;
      public list<String> trashList;
      public list<String> compostList;
      public list<String> recycleList;
+     private int score;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class BinDrop : MonoBehaviour
         recycle.Add("Cardboard");
         recycle.Add("Bottle");
         
+        int score = 0;
     }
 
     void OnTriggerEnter(Collider other)
@@ -33,7 +36,9 @@ public class BinDrop : MonoBehaviour
         {
             if (trashList.Contains(other.gameObject.name))
             {
-                
+                 AudioSource ding = GetComponent<AudioSource>();
+                 audio.Play(ding); 
+                 score = score + 1; 
             }
         }
 
@@ -41,7 +46,9 @@ public class BinDrop : MonoBehaviour
         {
             if (compostList.Contains(other.gameObject.name))
             {
-
+                AudioSource ding = GetComponent<AudioSource>();
+                 audio.Play(ding);
+                 score = score + 1;
             }
         }
         
@@ -49,7 +56,9 @@ public class BinDrop : MonoBehaviour
         {
             if(recycleList.Contains(other.gameObject.name))
             {
-
+                 AudioSource ding = GetComponent<AudioSource>();
+                 audio.Play(ding);
+                 score = score + 1;
             }
 
         }
