@@ -65,6 +65,12 @@ public class BinDrop : MonoBehaviour
 
 
     }
+     /*public int GetScore()
+        {
+           score = score + recycleList.score;
+           score = score + trashList.score;
+           score = score + compostList.score; 
+        }*/
 
     // Update is called once per frame
     void Update()
