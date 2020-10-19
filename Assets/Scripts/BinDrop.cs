@@ -15,6 +15,7 @@ public class BinDrop : MonoBehaviour
         trashList = new List<string>(); 
         trashList.Add("ChipBag");
         trashList.Add("Wrapper");
+        
 
         compostList = new List<string>();
         compostList.Add("Banana");
@@ -39,6 +40,7 @@ public class BinDrop : MonoBehaviour
                  //AudioSource ding = GetComponent<AudioSource>();
                  GetComponent<AudioSource>().Play(); 
                  score = score + 1; 
+                 
             }
         }
 
@@ -49,6 +51,7 @@ public class BinDrop : MonoBehaviour
                  //AudioSource ding = GetComponent<AudioSource>();
                  GetComponent<AudioSource>().Play();
                  score = score + 1;
+
             }
         }
         
@@ -59,19 +62,17 @@ public class BinDrop : MonoBehaviour
                  //AudioSource ding = GetComponent<AudioSource>();
                  GetComponent<AudioSource>().Play();
                  score = score + 1;
+
             }
 
         }
 
 
     }
-     /*public int GetScore()
+     public int GetScore()
         {
-           score = score + recycleList.score;
-           score = score + trashList.score;
-           score = score + compostList.score; 
-        }*/
-
+          return score 
+        }
     // Update is called once per frame
     void Update()
     {
