@@ -730,6 +730,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6339959bc7ebe64f97748597993786a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trashBin: {fileID: 0}
+  trashBinGreen: {fileID: 0}
+  trashBinBlue: {fileID: 0}
+  ScoreBoard: {fileID: 0}
 --- !u!114 &664270522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1487,6 +1491,7 @@ GameObject:
   - component: {fileID: 1006219642}
   - component: {fileID: 1006219641}
   - component: {fileID: 1006219640}
+  - component: {fileID: 1006219644}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -2138,6 +2143,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1576353357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 933738511553406173, guid: 1a570f403ac9fbc439ef2f8f8fbaed19, type: 3}
+  m_PrefabInstance: {fileID: 1253499346}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1583916737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2611,6 +2621,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6339959bc7ebe64f97748597993786a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trashBin: {fileID: 712374800}
+  trashBinGreen: {fileID: 1576353357}
+  trashBinBlue: {fileID: 1924925538}
+  ScoreBoard: {fileID: 1867774771}
 --- !u!114 &1867774771
 MonoBehaviour:
   m_ObjectHideFlags: 0
