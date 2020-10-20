@@ -23,6 +23,6 @@ public class TotalScore : MonoBehaviour
          TrashBinGreen.GetComponent<BinDrop>().GetScore();
          TrashBinBlue.GetComponent<BinDrop>().GetScore();*/
          FinalScore =  trashBinBlue.GetComponent<BinDrop>().GetScore() + trashBinGreen.GetComponent<BinDrop>().GetScore() + trashBin.GetComponent<BinDrop>().GetScore();
-         //ScoreBoard.text = "Total score:  "
+         ScoreBoard.text = "Total score: " + FinalScore;
     }
 }
