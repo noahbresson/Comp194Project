@@ -1,14 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class TotalScore : MonoBehaviour
 {
     public GameObject trashBin;
     public GameObject trashBinGreen;
     public GameObject trashBinBlue;
     private int FinalScore;
-    public GameObject Text;
+    public TMP_Text ScoreBoard;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +23,6 @@ public class TotalScore : MonoBehaviour
          TrashBinGreen.GetComponent<BinDrop>().GetScore();
          TrashBinBlue.GetComponent<BinDrop>().GetScore();*/
          FinalScore =  trashBinBlue.GetComponent<BinDrop>().GetScore() + trashBinGreen.GetComponent<BinDrop>().GetScore() + trashBin.GetComponent<BinDrop>().GetScore();
-         
+         ScoreBoard.text = "Total score:  "
     }
 }
