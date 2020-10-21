@@ -12,7 +12,7 @@ public class BinDrop : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        trashList = new List<string>(); 
+       trashList = new List<string>(); 
         trashList.Add("ChipBag");
         trashList.Add("Wrapper");
         
@@ -27,13 +27,14 @@ public class BinDrop : MonoBehaviour
         recycleList.Add("Paper");
         recycleList.Add("Cardboard");
         recycleList.Add("Bottle");
+        recycleList.Add ("CocaCola");
         
         score = 0;
     }
 
     void OnTriggerEnter(Collider other)
-    {
-        if(gameObject.name == "TrashBin")
+    { //score += 1;
+        if(transform.parent.name == "TrashBin")
         {
             if (trashList.Contains(other.gameObject.name))
             {
@@ -44,7 +45,7 @@ public class BinDrop : MonoBehaviour
             }
         }
 
-        else if(gameObject.name == "TrashBinGreen")
+        else if(transform.parent.name == "TrashBinGreen")
         {
             if (compostList.Contains(other.gameObject.name))
             {
@@ -55,7 +56,7 @@ public class BinDrop : MonoBehaviour
             }
         }
         
-        else if (gameObject.name == "TrashBinBlue")
+        else if (transform.parent.name == "TrashBinBlue")
         {
             if(recycleList.Contains(other.gameObject.name))
             {
