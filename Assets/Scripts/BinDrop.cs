@@ -39,7 +39,7 @@ public class BinDrop : MonoBehaviour
             if (trashList.Contains(other.gameObject.name))
             {
                  //AudioSource ding = GetComponent<AudioSource>();
-                 GetComponent<AudioSource>().Play(); 
+                 GetComponent<AudioSource>().Play(0); 
                  score = score + 1; 
                  
             }
@@ -50,7 +50,7 @@ public class BinDrop : MonoBehaviour
             if (compostList.Contains(other.gameObject.name))
             {
                  //AudioSource ding = GetComponent<AudioSource>();
-                 GetComponent<AudioSource>().Play();
+                 GetComponent<AudioSource>().Play(0);
                  score = score + 1;
 
             }
@@ -61,7 +61,7 @@ public class BinDrop : MonoBehaviour
             if(recycleList.Contains(other.gameObject.name))
             {
                  //AudioSource ding = GetComponent<AudioSource>();
-                 GetComponent<AudioSource>().Play();
+                 GetComponent<AudioSource>().Play(0);
                  score = score + 1;
 
             }
