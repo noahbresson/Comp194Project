@@ -14,7 +14,7 @@ public class BinDrop : MonoBehaviour
     {
        trashList = new List<string>(); 
         trashList.Add("ChipBag");
-        trashList.Add("Wrapper");
+        trashList.Add("Bar");
         
 
         compostList = new List<string>();
@@ -25,9 +25,9 @@ public class BinDrop : MonoBehaviour
         
         recycleList = new List<string>();
         recycleList.Add("Paper");
-        recycleList.Add("Cardboard");
+        recycleList.Add("CardboardBox1");
         recycleList.Add("Bottle");
-        recycleList.Add ("CocaCola");
+        recycleList.Add ("Line001");
         
         score = 0;
     }
