@@ -20,7 +20,7 @@ public class BinDrop : MonoBehaviour
         compostList = new List<string>();
         compostList.Add("Banana");
         compostList.Add("Fork");
-        compostList.Add("Apple");
+        compostList.Add("AppleChild");
         compostList.Add("Orange");
         
         recycleList = new List<string>();
